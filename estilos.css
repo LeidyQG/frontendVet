@@ -15,3 +15,18 @@
         font-size: 20px;
     }
 }
+
+.separador{
+    border: 1px solid rgb(219, 219, 219);
+    height: 100%;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade.show {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
